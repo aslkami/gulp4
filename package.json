@@ -1,0 +1,54 @@
+{
+  "name": "gulp4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aslkami/gulp4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aslkami/gulp4/issues"
+  },
+  "homepage": "https://github.com/aslkami/gulp4#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
+    "autoprefixer": "^9.6.1",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-changed-in-place": "^2.3.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-clean-dest": "^0.2.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-connect-reproxy": "0.0.98",
+    "gulp-gzip": "^1.4.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-stylus": "^2.7.0",
+    "gulp-svgmin": "^2.2.0",
+    "gulp-uglify": "^3.0.2",
+    "postcss-normalize": "^8.0.1"
+  },
+  "dependencies": {
+    "postcss-cli": "^6.1.2",
+    "readable-stream": "^3.4.0"
+  },
+  "browserslist": [
+    "last 2 version",
+    "> 2%",
+    "maintained node versions",
+    "not dead"
+  ]
+}
